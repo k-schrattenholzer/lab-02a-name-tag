@@ -3,9 +3,16 @@
 
 <head>
         <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-    <div class = 'tag'>
+    <div class = 'tag' id= 'sticker'>
         <header class = 'tagtop'>
             <div class = 'hello'>
                 HELLO
@@ -14,9 +21,20 @@
                 my name is
             </div>
         </header>
-            <p class = 'name'> 
-                katie
-            </p>
+            <p class = 'name' id= 'orig-name'> katie </p>
+            <p class = 'tag-pronouns' id='orig-pronouns'> they/them </p></p>
+            
     </div>
+    <div class = 'nametag button'>
+        <input id="word-input" type="text" />
+        <button id="change-button">what is thine name?</button>
+        <br>
+        <input id='pronouns' type='text'/>
+        <button id="pronoun-button">what be thine pronouns?</button>
+    </div>
+    <div class = 'green button'>
+        <button id = "change-green">wonder what this does?</button>
+    </div>
+    <script src="input.js"></script>
 </body> 
 </html>
